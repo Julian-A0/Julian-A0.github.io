@@ -1,16 +1,10 @@
 ---
-title: Component Selection Example
+Title | Component Selection for Pressure Sensor Subsystem
 ---
 
-## Examples
+### Primary Components
 
-### Style 1
-
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
+*Table 1:  Pressure Sensor Selection*
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
