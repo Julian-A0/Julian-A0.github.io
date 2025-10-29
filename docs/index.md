@@ -1,9 +1,4 @@
----
-title: Welcome
-tags:
-- tag1
-- tag2
----
+Welcome
 <center>
 <font size= "6">Julian Mitchell Datasheet</font><br>
 as part of<br>
@@ -11,24 +6,18 @@ as part of<br>
 for<br>
 <font size= "5"> Team 208 </font><br>
 
-**Submission: September , 3 , 2025**
-</center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This project inteneds to support the [JECK](https://asu-egr304-2025-f-208.github.io/ASU-EGR-304-Team-208/) Water Detection System. By measuring the pressure of the water flowing through a pipe we can determine if there is a leak present. A sudden drop in pressure in conjunction with the presence of water can tell us that a pipe may have burst, or if pressure drops in a manner unlike turning a handle off we can determine the possibility of a leak as well. 
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* The system utilizes a pressure sensor whose signal is amplified for readability. This input feeds into a Curiosity Nano Board microcontroller programmed with code to calculate the risk of a leak. Whether water presence is detected but pressure is not, or if pressure drops suddenly the program will digitally output an alarm signal. 
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
-
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+* To support this project I have determined the most feasible pressure sensor to incoorporate in our design, and also drafted a readable schematic to display how the Curiosity Nano communicates with other subsystems. 
 
 For all the sections
