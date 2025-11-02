@@ -1,4 +1,4 @@
-Title | Component Selection for Pressure Sensor Subsystem
+Component Selection for Pressure Sensor Subsystem
 ---
 
 ### Primary Components
@@ -14,7 +14,7 @@ Title | Component Selection for Pressure Sensor Subsystem
 
 **Rationale:** This sensor leaves greater room in the budget while providing readings for a wider range of pressure. The output voltage works well with easily accesible voltage regulators and there are additional resources on the application of the sensor using other controllers. Given the compatability with similar sized controllers the lack of depth with dimensions can be navigable. This sensor advertises no corrosion and offers clear information on the thread size in the datasheet. 
 
-*Table 1:  Pressure Sensor Selection*
+*Table 2:  Op-Amp Selection*
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -24,3 +24,14 @@ Title | Component Selection for Pressure Sensor Subsystem
 **Choice:** Option 2: MCP6004-I/P
 
 **Rationale:** There are many of these amps readily available given the materials supplied by the instructors. By having several amplifiers on this componenet there is also increased flexibility in how the circuit can be formatted. In the case of a pin failure the other non-inverting amplifier can be used instead. The cost is also negligble in choosing the 6004 over 6001. Size will not be of concern given the overall space allotted for the PCB.  
+*Table 1:  Pressure Sensor Selection*
+
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](6001.png)<br>Option 1 - <br> LM7805T 5V 1.5A Voltage Regulator <br>$0.33/each<br>[link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ACD2T-TR/1038230)                 | \* Easily obtainable <br>\* Extensive information available on design and implementation <br>\* Short circuit protections                                             | \* Limited applications based on current rating <br>\* 4% accuracy (More accurate regulators exist) |
+| ![](6004.png)<br>  Option 2 -  <br>\* MCP6004-I/P <br>\* $0.59/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0257/8341836?s=N4IgTCBcDaIOYCcCGA3AlgFwJ4AIDuSGApgjgA4JEDOVArpTlUQHZUD2CIAugL5A) | \* Cost effective <br>\* Offers additional non-inverting opamps <br> \* Designer familiarity with the specific model | * Slightly larger model than the 6001 <br>\* Has a more complex pin layout than the 6001 |
+
+**Choice:** Option 2: LM7805T
+
+**Rationale:** There are many of these amps readily available given the materials supplied by the instructors. By having several amplifiers on this componenet there is also increased flexibility in how the circuit can be formatted. In the case of a pin failure the other non-inverting amplifier can be used instead. The cost is also negligble in choosing the 6004 over 6001. Size will not be of concern given the overall space allotted for the PCB.  
+
