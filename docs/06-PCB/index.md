@@ -15,13 +15,13 @@ A PDF view of the all layers view can be found at this [link]()
 
 ![PCB](TopCu.png)
 
-A PDF view of the front copper view can be found at this [link]()
+A PDF view of the front copper view can be found at this [link](TOPCU.pdf)
 
 
 ## Bottom Copper Only
 
 ![PCB](BottomCU.png)
 
-A PDF view of the bottom copper view can be found at this [link]()
+A PDF view of the bottom copper view can be found at this [link](BottomCU.pdf)
 
 
