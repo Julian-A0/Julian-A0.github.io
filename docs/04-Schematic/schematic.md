@@ -4,10 +4,12 @@ Pressure Sensor Subsystem
 
 ## Overview
 
-This subsytem is design to support the JECK water leak detection system. Power is adapted using a barrel jack switch that is connected to a wall outlet. Voltage levels are then regulated to 5V and sent to the water pressure sensor. The water pressure sensor is utiilized to take in analog input, amplify the signal and feed it into the Curiosity Nano Board. A debugging LED and reset push button are included to aid in tracking issues in code and circuitry. If the pressure is categorized by the board's program as a leak a high setting of 1 will be digitally outputted to trigger the alarm. 
+The pressure subsystem serves to detect any rapid drops or unusual changes in pessure within a water system. By taking an analog input, amplifying the signal and sending it to the Curiosity Nano Board JECK is able to determine the severity of the situation and output a digital alarm code to the speaker system. The schematic is broken down into four sections: A power supply and regulator combination, the current divider subsection, an amplification and analog pressure sensor subsection as well as a microcontroller processing unit. 
 
-## Subsystem Schematic Overview
-![schematic](PressureSensorSubsystem.png)
+## Power Supply and Voltage Regulation
+
+Within this subsection of the schematic a 9V AC-DC wall outlet adapter is used to bring in power to the Pressure subsystem. From this supply a MIC5211-LXYM6-TR dual voltage regulator converts the input voltage into 3.3V and 5V outputs. Decoupling capacitors are utilized to minimize the noise of the voltage input. The final result is a circuit subsection that can power the amplifier, Curiosity Nano Board and sensor.
+![schematic](PSVR.png)
 
 
 
