@@ -22,7 +22,11 @@ The CFSensor XGZP6859A040KPG33 Pressure Sensor takes in a pressure reading from 
 
 ![schematic](Senamp.png)
 
+## Curiosity Nano Board 
 
+The Curiosity Nano Board will take in the analog voltage as an input through RA0, and a debugging LED is included for late programming use. A pushbutton has been included to allow for a short circuit to reset the system. A header is also present and offers a digital connection out of the board so that an alarm code can be sent from the PIC if necessary. Several other flag signals for the LED and pushbutton, as well as a potential connection for an external +5V power supply, are utilized in case of component failure. 
+
+![schematic](PIC.png)
 
 
 
