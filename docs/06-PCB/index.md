@@ -9,11 +9,19 @@ The PCB drafted from the schematic is set to a thickness of 0.5 ft/oz^2 using co
 
 ![PCB](PCBOverview.png)
 
+A PDF view of the all layers view can be found at this [link]()
+
 ## Front Copper Only
 
 ![PCB](TopCu.png)
 
+A PDF view of the front copper view can be found at this [link]()
+
+
 ## Bottom Copper Only
 
 ![PCB](BottomCU.png)
+
+A PDF view of the bottom copper view can be found at this [link]()
+
 
