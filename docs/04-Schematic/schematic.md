@@ -11,5 +11,11 @@ The pressure subsystem serves to detect any rapid drops or unusual changes in pe
 Within this subsection of the schematic a 9V AC-DC wall outlet adapter is used to bring in power to the Pressure subsystem. From this supply a MIC5211-LXYM6-TR dual voltage regulator converts the input voltage into 3.3V and 5V outputs. Decoupling capacitors are utilized to minimize the noise of the voltage input. The final result is a circuit subsection that can power the amplifier, Curiosity Nano Board and sensor.
 ![schematic](PSVR.png)
 
+## Current Divider 
+
+The output of the dual voltage regulator is 80 mA, however the input for the pressure sensor is 2mA. A current divider is necessary to redirect the difference in current out to ground while diverting 2 mA to the pressure sensor net. Given the input and output currents of the eletrical components the values of the resistors can be calculated using a simple current divider formula. An additional decoupling capacitor is included. 
+![schematic](Currdiv.png)
+
+
 
 
