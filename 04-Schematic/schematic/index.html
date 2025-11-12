@@ -684,6 +684,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#curiosity-nano-board" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curiosity Nano Board
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -871,6 +880,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#curiosity-nano-board" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curiosity Nano Board
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -909,6 +927,9 @@
 <h2 id="pressure-sensor-and-amplification">Pressure Sensor and Amplification</h2>
 <p>The CFSensor XGZP6859A040KPG33 Pressure Sensor takes in a pressure reading from a pipe being fed into it and outputs an small analog voltage that is then prepared for reading by the Curiosity Nano Board via amplification. The MCP6004-I/P opamp is powered from the +5V source and outputs an analog voltage between the minimum 0.2V to freshly amplified maximum 5V value. This subsection of the circuit includes various connectors for pressure sensor and 2 mA current inputs in case any components upstream of the amplifier/sensor combination fail. Decoupling capacitors are included to minimize noise. </p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Senamp.png" data-desc-position="bottom"><img alt="schematic" src="../Senamp.png"></a></p>
+<h2 id="curiosity-nano-board">Curiosity Nano Board</h2>
+<p>The Curiosity Nano Board will take in the analog voltage as an input through RA0, and a debugging LED is included for late programming use. A pushbutton has been included to allow for a short circuit to reset the system. A header is also present and offers a digital connection out of the board so that an alarm code can be sent from the PIC if necessary. Several other flag signals for the LED and pushbutton, as well as a potential connection for an external +5V power supply, are utilized in case of component failure. </p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PIC.png" data-desc-position="bottom"><img alt="schematic" src="../PIC.png"></a></p>
 
 
 
